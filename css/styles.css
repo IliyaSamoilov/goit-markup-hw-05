@@ -548,7 +548,7 @@ section {
   opacity: 1;
   width: 408px;
   min-height: 584px;
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
 
   border-radius: 4px;
   background: var(--dairy, #fcfcfc);
@@ -750,23 +750,30 @@ section {
   gap: 24px;
 }
 .footer-form-input {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-left: 16px;
+
   width: 264px;
   height: 40px;
 
+  color: var(--white);
   border-radius: 4px;
-  border: 1px solid var(--white, #fff);
+  border: 1px solid var(--white#fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
   outline: transparent;
 }
 .footer-form-input::placeholder {
-  color: #fff;
+  color: #ffffff;
 
   font-size: 12px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .text-seven {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -774,11 +781,14 @@ section {
   color: var(--white);
 }
 .footer-button-icon {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 16px;
   fill: var(--white);
+
+  min-width: 165px;
+  height: 40px;
 }
 .modal-caption {
   color: var(--titel-color);
@@ -881,4 +891,9 @@ input[type='checkbox']:checked + .agrement-checkbox {
   fill: #404bbf;
   stroke-width: 1px;
   stroke: #404bbf;
+}
+.footer-label {
+}
+.div-label {
+  margin-bottom: 8px;
 }
