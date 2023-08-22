@@ -506,7 +506,7 @@
           Leave your contacts and we will call you back
         </p>
         <form class="modal-form" name="review_form">
-          <div class="modal-div">
+          <div class="modal-div-name">
             <label class="modal-form-label" for="user-name">Name</label>
             <div class="modal-form-field">
               <input
@@ -567,16 +567,14 @@
               required
             ></textarea>
             <div class="div-comment">
+              <input
+                class="visually-hidden"
+                type="checkbox"
+                name="user-privacy"
+                id="user-privacy"
+                value="true"
+              />
               <label class="modal-form-agrement" for="user-privacy">
-                <input
-                  class="visually-hidden"
-                  type="checkbox"
-                  name="user-privacy"
-                  id="user-privacy"
-                  value="true"
-                />
-              </label>
-              <label class="modal-form-description" for="user-privacy">
                 <span class="agrement-checkbox">
                   <svg class="agrement-checkbox-icon" width="10" height="8">
                     <use href="./images/icons.svg#icon-Property-yes"></use>
