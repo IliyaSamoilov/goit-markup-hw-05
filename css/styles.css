@@ -936,7 +936,7 @@ section {
 .agrement-checkbox-icon {
   fill: currentColor;
 }
-.modal-form-input:checked + .modal-form-agrement > .agrement-checkbox-icon {
+.modal-form-input:checked + .agrement-checkbox-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
