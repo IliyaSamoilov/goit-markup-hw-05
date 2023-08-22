@@ -522,7 +522,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-div">
+          <div class="modal-div-name">
             <label class="modal-form-label" for="user-number">Phone</label>
             <div class="modal-form-field">
               <input
@@ -539,7 +539,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-div">
+          <div class="modal-div-name">
             <label class="modal-form-label" for="user-email">Email</label>
             <div class="modal-form-field">
               <input
@@ -566,18 +566,19 @@
               placeholder="Text input"
               required
             ></textarea>
+          </div>
             <div class="div-comment">
               <input
-                class="visually-hidden"
+                class="visually-hidden checkbox-input"
                 type="checkbox"
                 name="user-privacy"
                 id="user-privacy"
                 value="true"
               />
               <label class="modal-form-agrement" for="user-privacy">
-                <span class="agrement-checkbox">
+                <span class="agrement-checkbox checkbox">
                   <svg class="agrement-checkbox-icon" width="10" height="8">
-                    <use href="./images/icons.svg#icon-Property-yes"></use>
+                    <use href="./images/icons.svg#icon-yes"></use>
                   </svg> </span
                 >I accept the terms and conditions of the
                 <a
@@ -589,7 +590,7 @@
                 >
               </label>
             </div>
-            <button class="modal-form-btn button-modal" type="submit">
+            <button class="modal-form-btn button" type="submit">
               Send
             </button>
           </div>
