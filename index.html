@@ -566,30 +566,35 @@
               placeholder="Text input"
               required
             ></textarea>
-            <label class="modal-form-agrement" for="user-agreement">
-              <input
-                class="visually-hidden"
-                type="checkbox"
-                name="user-agreement"
-                id="user-agreement"
-              />
-              <span class="agrement-checkbox">
-                <svg class="agrement-checkbox-icon" width="16" height="16">
-                  <use href="./images/icons.svg#icon-Property-yes"></use>
-                </svg>
-              </span>
-              <span class="modal-form-description"
-                >I accept the terms and conditions of the
-                <a
-                  class="modal-form-link"
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Privacy Policy</a
-                >
-              </span>
-            </label>
-            <button class="modal-form-btn button" type="submit">Send</button>
+            <div class="div-comment">
+              <label class="modal-form-agrement" for="user-privacy">
+                <input
+                  class="visually-hidden"
+                  type="checkbox"
+                  name="user-privacy"
+                  id="user-privacy"
+                  value="true"
+                />
+
+                <label class="modal-form-description" for="user-privacy">
+                  <span class="agrement-checkbox">
+                    <svg class="agrement-checkbox-icon" width="10" height="8">
+                      <use href="./images/icons.svg#icon-Property-yes"></use>
+                    </svg> </span
+                  >I accept the terms and conditions of the
+                  <a
+                    class="modal-form-link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Privacy Policy</a
+                  >
+                </label>
+              </label>
+            </div>
+            <button class="modal-form-btn button-modal" type="submit">
+              Send
+            </button>
           </div>
         </form>
       </div>
